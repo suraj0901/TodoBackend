@@ -127,3 +127,37 @@ notNull Violation: Todo.completed cannot be null	POST	/api/v1/todos	undefined
 20230505	12:41:02	db4b3843-1c14-4f01-b8bd-d6fdeb66b85d	SequelizeForeignKeyConstraintError:insert or update on table "todos" violates foreign key constraint "todos_UserId_fkey"	POST	/api/todos	http://localhost:5173
 20230505	12:41:24	5520192e-1e74-4029-8d12-bc0e92435a8e	SequelizeForeignKeyConstraintError:insert or update on table "todos" violates foreign key constraint "todos_UserId_fkey"	POST	/api/todos	http://localhost:5173
 20230505	12:43:48	12ff0867-b13b-4642-b6c7-f9e191990320	SequelizeForeignKeyConstraintError:insert or update on table "todos" violates foreign key constraint "todos_UserId_fkey"	POST	/api/todos	http://localhost:5173
+20230505	13:59:16	79cb71f7-7ff6-442d-96f3-a434cb890c49	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	13:59:21	51c03fba-f42d-42f4-8f20-20f36763abab	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	13:59:31	b235ce4c-3184-4ad7-b3ec-d0d8e03e0e84	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	13:59:49	4babe4a4-1334-461b-881b-fc35a274e822	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	13:59:49	28d1a481-d57d-489b-9928-d4a5a9d3570f	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	13:59:59	dff2a650-0306-427d-957c-853a9b06340a	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:00:06	f967e464-fd8f-44bc-84f4-5832e853a48b	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:00:11	fe8b6751-3ad6-454c-8b2b-0be69470eab2	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:00:19	916dab8f-06eb-43ce-89ec-5790930a8a0a	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:00:36	cdf8ea97-e867-4913-8bc6-ed4c0c23516f	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:00:49	f7db2e37-7254-4b43-bc8e-7ccea31235e5	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:01:21	313c8246-6a45-4b3e-a3f2-ad971a935417	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:01:34	254f52c2-cc2e-4deb-86ed-4be9ab3148a4	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:03:58	48051c0f-c36a-433a-ae02-0e864a2e03aa	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:03:58	9c874d1f-6fee-4698-9a0d-37b7a11f78d4	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:04:08	68367523-fcd2-4352-b905-f50b89c7c58f	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:04:28	544b309f-9364-4d41-97ca-77a26427fada	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:04:48	dcdae7d8-ba8c-4355-bcb2-249d6dba3551	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:04:58	098ac6ff-01d7-4924-8ba9-fe908b743949	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:04:59	32462e47-ff14-4ad4-a943-440ca41647d9	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:05:04	a9e45d73-fc68-49d8-8c9b-00b00217fdeb	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:05:14	339d8c75-c854-47fa-8a6d-d2c41c0f3996	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:05:43	23b30ea4-89ae-4e87-81f7-142d3d7b47d9	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:05:44	414c4bd2-216d-460e-a906-f860c7d37642	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:05:47	549e70fb-cb52-41da-ac11-4f8e64e2a37f	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:05:52	b635e3b6-a309-4fd1-bfb7-7de5a7223cbc	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:06:07	a14a448a-9c1f-496e-a473-2db556b91029	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:06:18	b50a3085-3d5e-4a55-8af8-fac589df38ae	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:06:19	a1765c6f-d7e8-45f4-98f6-acad0c7daf50	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:06:29	41f1193f-d77e-49d6-a5cc-5995df176dee	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:06:49	4814c47c-a2c4-4663-8de9-322dc58b27ef	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:07:35	c1afc18e-728a-46bd-837b-37a9a83ab88f	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:09:00	3ec56a3a-5d81-48ec-84f5-704f4340128c	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173
+20230505	14:10:45	ac6bbb75-6970-4084-a794-74c38e1e602f	Error:Not allowed by CORS	OPTIONS	/api/todos	http://localhost:5173

@@ -1,5 +1,7 @@
 import { config } from "dotenv"
-// await import("dotenv")
+
+(config)()
+
 import express from "express"
 import expressAsyncError from "express-async-errors"
 import { initializeDatabase } from "./src/db/index.js"
@@ -7,7 +9,6 @@ import middleware from "./src/middlewares/index.js";
 import errorHandler from "./src/middlewares/errorHandler.js"
 import router from "./src/routes/index.js";
 
-config()
 initializeDatabase()
 
 const app = express()

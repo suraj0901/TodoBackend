@@ -6,8 +6,8 @@ import { logger } from "./logger.js";
 import Auth from "../auth/auth.route.js";
 
 
-const middlewares = [logger, cookieParser(), json(), cors(corsOptions), Auth.initialise()]
 
 export default (app) => {
+    const middlewares = [logger, cookieParser(), json(), cors(corsOptions), Auth.initialise()]
     middlewares.forEach(middleware => app.use(middleware))
 }
