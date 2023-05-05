@@ -4,9 +4,9 @@ import passport from "passport";
 import { ExtractJwt, Strategy as JwtStrategy } from "passport-jwt";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 
-const CLIENT_HOME_URL = `${process.env.CLIENT_URL}/login`
 
 const authRouter = ({ provider, adapter, jwtToken }) => {
+    const CLIENT_HOME_URL = `${process.env.CLIENT_URL?.slice(1, -1)}/login`
 
     const AuthRouter = Router()
 
