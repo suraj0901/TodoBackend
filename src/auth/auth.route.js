@@ -170,7 +170,12 @@ const authRouter = ({ provider, adapter, jwtToken }) => {
         process.env.ACCESS_TOKEN_SECRET,
         { expiresIn: "15m" }
       );
-
+      res.cookie("jwt", refreshToken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "None",
+        maxAge: 7 * 24 * 60 * 60 * 1000,
+      });
       res.json({ accessToken, user: decoded.data.displayName });
     });
   });
